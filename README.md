@@ -10,4 +10,4 @@ public/Scan.py中，该行：#wArray.append(eeline)可以记录目标原始代�
 
 TODO：
 
-优化扫描检测数组checkArray，优化匹配结果。
+优化扫描检测数组checkArray，优化扫描实现。
