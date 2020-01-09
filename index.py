@@ -3,7 +3,7 @@ import public.Scan as scans
 import argparse
 import time
 
-def pmian():
+def pmain():
     print('''
     --
     |       MIMAZ.ORG  CodeFileSCAN  V1.0
@@ -50,5 +50,6 @@ def main():
         printmsg('文件位置：{} 代码行数：{} 触发规则：{}'.format(eResArray[0], eResArray[1], eResArray[2]))
 
 if __name__ == "__main__":
+    pmain()
     args = uinput()
     main()
